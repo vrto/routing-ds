@@ -11,7 +11,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 @Aspect
 @Component
-public class ReadOnlyConnectionInterceptor implements Ordered {
+public class TransactionInterceptor implements Ordered {
 
     private int order;
 
